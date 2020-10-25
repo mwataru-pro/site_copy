@@ -4,7 +4,7 @@
 }
 
 #page {
-  width: 1000px;
+  width: 1035px;
   margin: 0 auto;
 }
 
@@ -23,4 +23,9 @@
 
 #site-menu-list li {
   display: inline-block;
+}
+
+#home-text {
+  color: #777;
+  font-size: 27px;
 }
