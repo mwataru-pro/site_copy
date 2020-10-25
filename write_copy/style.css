@@ -1,0 +1,26 @@
+#site-box {
+  margin: 60px 40px;
+  font-family: serif;
+}
+
+#page {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#site-link {
+  margin: 0;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+
+#site-menu-list {
+  list-style: none;
+}
+
+#site-menu-list li {
+  display: inline-block;
+}
