@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* ページ全体の設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ヘッダーブロック */
+.title {
+  margin-left: 135px;
+  margin-right: 135px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.title p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.logo img {
+  width: 128px;
+}
+
+button {
+  background-color: lightcoral;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 50px;
+  color: #fff;
+  letter-spacing: 0.2em;
+  margin-left: auto;
+}
