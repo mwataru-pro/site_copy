@@ -42,8 +42,12 @@ button {
 .main {
   height: 500px;
   background-image: url(img/main.jpg);
+  background-position: center;
   background-size: cover;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main img {
