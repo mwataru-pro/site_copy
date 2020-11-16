@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+/* コンポーネント */
+.btn {
+  background-color: lightcoral;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: 0.2em;
+}
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bgOrange {
+  background-color: #eeb94d;
+}
+
+.fontWhite {
+  color: #ffffff;
+}
+
+.txt-l {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.txt-m {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* ヘッダーブロック */
 .title {
   margin-left: 135px;
@@ -20,13 +52,8 @@
   width: 128px;
 }
 
-button {
-  background-color: lightcoral;
-  border: none;
-  border-radius: 30px;
+.btnContactS {
   padding: 5px 50px;
-  color: #fff;
-  letter-spacing: 0.2em;
   margin-left: auto;
 }
 
@@ -48,13 +75,44 @@ button {
   margin-bottom: 20px;
 }
 
-.txt-l {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 20px;
+/* section1 */
+.guidance {
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.txt-m {
-  font-size: 20px;
-  font-weight: 600;
+.guidance p {
+  margin-bottom: 40px;
+}
+
+.importantTxt {
+  background-color: #fff;
+  color: red;
+}
+
+.btnContactL {
+  padding: 30px 120px;
+  max-width: 1028px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btnContactL p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.snsIcon .snsIconList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.snsIconList .snsIconItem + .snsIconItem {
+  margin-left: 5px;
 }
